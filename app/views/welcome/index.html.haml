@@ -1,5 +1,9 @@
+= yield :header
+
 %h1 Welcome#index
 %p Find me in app/views/welcome/index.html.haml
 %br/
 - 11.times do |counter|
   = counter
+
+= yield :main
